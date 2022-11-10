@@ -1,5 +1,5 @@
-#ifndef GET_H
-#define GET_H
+#ifndef GEST_H
+#define GEST_H
 
 #include <stdio.h> 
 #include <string.h> 
@@ -21,7 +21,7 @@ typedef struct user
 int ajouter (char * filename, user u);
 int modifier (char * filename, int id, user nouv );
 int supprimer();
-int rechercher()
+int rechercher();
 
 
 
